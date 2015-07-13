@@ -1,0 +1,34 @@
+{
+  "name": "markdown-prefilter-metadata",
+  "version": "0.1.0",
+  "description": "Extract native metadata from markdown files",
+  "author": "Michael Kortstiege <mk@devsparks.com>",
+  "scripts": {
+    "compile": "babel --plugins object-assign es6/ -d ./",
+    "jsdoc": "jsdoc ./es6/index.js -d docs"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devsparks/markdown-prefilter-metadata"
+  },
+  "bugs": {
+    "url": "https://github.com/devsparks/markdown-prefilter-metadata/issues"
+  },
+  "keywords": [
+    "utility",
+    "markdown",
+    "preprocessor",
+    "parser",
+    "metadata",
+    "front matter",
+    "es6"
+  ],
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "babel-core": "^5.6.19",
+    "babel-plugin-object-assign": "^1.2.0",
+    "jsdoc-75lb": "^3.4.0-dev-6"
+  },
+  "license": "MIT"
+}
